@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <ul class="menu">
+        <li class="links"><a href="#Home">Home</a></li>
+        <li class="links"><a href="#Grid-View">Grid-View</a></li>
+        <li class="links"><a href="#slide-view">Slide View</a></li>
+    </ul>
+    <section id="Home">
+        <img id="home-img" width="90%" src="https://bestanimations.com/media/flowers/1613090602spring-cherry-blossom-flowers-animated-gif.gif">
+    </section>
+    <br> <br><br> <br><br> <br><br> <br><br> <br>
+    <section id="Grid-View">
+        <h1>Grid-View</h1>
+        <div class="line"></div>
+        <span>
+            <img src="Pink%20tulip.jpg" width="400px" height="265px">
+            <img src="blue.jpg" width="400px" height="265px">
+            <img src="purple.jpg" width="400px" height="265px">
+        </span>
+        <span>
+            <img src="Orange.png" width="400px" height="265px">
+            <img src="Red%20rose.jpg" width="400px" height="265px">
+            <img src="violet.jpg" width="400px" height="265px">
+        </span>
+        <span>
+            <img src="White.jpg" width="400px" height="265px">
+            <img src="yellow.jpg" width="400px" height="265px">
+        </span>
+    </section>
+    <section id="slide-view">
+        <br> <br><br> <br><br> <br><br> <br><br> <br>
+        <h1>Slide Show Gallery</h1>
+        <div id="myCarousel" class="carousel-slide" data-ride="carousel" >
+            <div class="carousel-inner">
+                <a class="left carousel-control" href="#myCarousel" dats-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" dats-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+                <div id="pic1">
+                    <img src="blue.jpg" height="90%">
+                </div>
+            </div>
+                        <div class="carousel-inner">
+                <div id="pic2">
+                    <img src="Orange.png" height="90%">
+                </div>
+            </div>
+        </div>
+    </section>
+</body></html>
